@@ -1,0 +1,128 @@
+//:hover{transition: all ease .5s;}
+:lang(es){font-weight: 300;}
+.container-flow{background:#eee; text-align: center;}
+body{font-family: 'Roboto', sans-serif; font-weight: 400; background:#fafafa; font-size:10px;}
+header{margin:1.4em 0; padding:0.7em;}
+footer{padding:2em 0;}
+article {
+  margin:.5em .5em 1em .5em;
+  background:#fff;
+  padding:.8em;
+  //border-radius: .3em; //box-shadow: 0 0 5px rgba(100,100,100,0.1);
+}
+figure{//border-radius: .2em; background:#eee; padding: 0.6em 0.6em 0.6em;}
+figure.completamente-logrado{background:#DFF0D8; padding:1.5em;}
+figure.no-logrado{background:#F2DEDE; padding:1.5em;}
+img.picto{width:100%; height:auto;}
+dl{font-size:90%; color:#777;}
+dl:first-child{padding-top:1em;}
+dl:last-child{padding-bottom:1em;}
+dt, dd {display: inline-block;}
+dt {width: 80%;}
+dd {width: 20%; text-align:right;}
+
+article h2{font-size:1.5em;}
+
+article h3.aceptable{color:green;}
+
+article h3.inaceptable{color:red;}
+
+div.description{}
+
+.accepted{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.not-accepted{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qrespuestas{
+  background:#eee;
+  padding:0.2em 0.05em;
+}
+
+.primera{
+  position:relative;
+}
+
+.icono{
+  display: inline-block;
+  position:relative;
+  margin:0px 0px 0px;
+
+}
+
+.cifra{
+  display: inline-block;
+  position:absolute;
+  margin:0px 0px 0px;
+  padding:2em 1em 0em 0em;
+  bottom: 0px;
+
+}
+
+.cifra h3{
+  font-size:4.5em;
+  font-weight: 100;
+  margin:0px 0px 3px;
+  paddding:0;
+}
+
+.cifra p{
+  font-size:80%;
+  margin: 0px 0px 0px;
+}
+
+.circle{
+  position:absolute;
+  right:1.1em;
+  top:0.1em;
+  width:1.75em;
+  height:1.75em;
+  background:silver;
+  overflow:hidden;
+  border-radius:50%;
+  line-height:1.8em;
+  text-align: center;
+}
+
+.segunda{
+  padding-top:0.6em;
+}
+
+h2{
+  font-size:1em;
+  margin:0;
+  padding:0.6em 0em 0.6em 0em;
+  border-bottom:1px solid #eee;
+}
+
+h5{
+  font-size:1.3em;
+  padding:0.4em 0.1em;
+  background:#eee;
+}
+
+p{
+  font-size: 1em;
+}
+
+.contador{
+  padding-right: 24px;
+}
+
+//.qevaluacion{
+  //border-bottom:1px solid #eee;
+//}
+
+#action{
+  border-top:1px solid #eee;
+  padding-top: 4px;
+}
+
+.contador:nth-child(3n+1) {clear: left;}
+
+article:nth-child(4n+1) {clear: left;}
